@@ -93,7 +93,6 @@ footer {
     .social-title {
       align-self: center;
       margin-bottom: 4.5rem;
-      transform: rotate(0.01turn);
       @media (min-width: 1025px) and (max-width: 1300px) {
         margin-bottom: 4.3rem;
       }
@@ -108,14 +107,12 @@ footer {
       }
       h2 {
         text-transform: uppercase;
-        font-family: 'Cyborg';
+        font-family: 'Oswald';
         font-size: 3rem;
-        font-weight: 900;
+        font-weight: 700;
         color: #14e956;
         margin: 0;
         opacity: 0.9;
-        text-shadow: 3px 3px 0 #14e956, -1px -1px 0 #14e956, 1px -1px 0 #14e956,
-          -1px 1px 0 #14e956, 1px 1px 0 #14e956;
 
         @media (min-width: 1025px) and (max-width: 1300px) {
           font-size: 2.5rem;
@@ -289,77 +286,7 @@ footer {
           }
         }
       }
-      .twitter-box {
-        width: 25%;
-        background: #1da1f2;
-        color: #d2ecfc;
-        height: 9rem;
-        padding: 0 1.5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer;
-        @media (min-width: 760px) and (max-width: 1024px) {
-          width: 50%;
-          padding: 0;
-          justify-content: space-around;
-          height: 6rem;
-        }
-        @media (min-width: 480px) and (max-width: 759px) {
-          width: 100%;
-          padding: 0 3rem;
-          justify-content: space-between;
-          height: 5rem;
-        }
-        @media (max-width: 479px) {
-          width: 100%;
-          padding: 0 1.5rem;
-          justify-content: space-between;
-          height: 4.5rem;
-        }
-        &:hover,
-        &:focus {
-          opacity: 0.7;
-        }
-        p {
-          font-size: 3.5rem;
-          font-weight: 600;
-          margin: 0;
-          @media (min-width: 1025px) and (max-width: 1300px) {
-            font-size: 3.1rem;
-          }
-          @media (min-width: 760px) and (max-width: 1024px) {
-            font-size: 2.9rem;
-          }
-          @media (min-width: 480px) and (max-width: 759px) {
-            font-size: 2.6rem;
-          }
-          @media (max-width: 479px) {
-            font-size: 2.1rem;
-          }
-        }
-        svg {
-          width: 85px;
-          height: 85px;
-          @media (min-width: 1025px) and (max-width: 1300px) {
-            width: 75px;
-            height: 75px;
-          }
-          @media (min-width: 760px) and (max-width: 1024px) {
-            width: 65px;
-            height: 65px;
-          }
-          @media (min-width: 480px) and (max-width: 759px) {
-            width: 55px;
-            height: 55px;
-          }
-          @media (max-width: 479px) {
-            width: 45px;
-            height: 45px;
-          }
-        }
-      }
-      .schedule-box {
+      .telegram-box {
         width: 25%;
         background: #006cff;
         color: #cce2ff;
@@ -430,85 +357,6 @@ footer {
         }
       }
     }
-    .social-mail {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 4rem;
-      background: #10ba46;
-      cursor: pointer;
-      @media (min-width: 1025px) and (max-width: 1300px) {
-        height: 4rem;
-      }
-      @media (min-width: 480px) and (max-width: 759px) {
-        height: 3.7rem;
-      }
-      @media (max-width: 479px) {
-        height: 3.5rem;
-      }
-      &:hover,
-      &:focus {
-        opacity: 0.7;
-      }
-      .box {
-        height: 100%;
-        width: 23%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        @media (min-width: 480px) and (max-width: 759px) {
-          width: 50%;
-        }
-        @media (max-width: 479px) {
-          width: 100%;
-          padding: 0 1.5rem;
-        }
-        p {
-          margin: 0;
-          margin-bottom: -0.3rem;
-          font-family: 'Cyborg';
-          font-size: 2.2rem;
-          font-weight: 900;
-          color: #d0fbdd;
-          text-transform: uppercase;
-          @media (min-width: 1025px) and (max-width: 1300px) {
-            font-size: 1.8rem;
-          }
-          @media (min-width: 760px) and (max-width: 1024px) {
-            font-size: 1.4rem;
-          }
-          @media (min-width: 480px) and (max-width: 759px) {
-            font-size: 1.7rem;
-          }
-          @media (max-width: 479px) {
-            font-size: 1.5rem;
-          }
-        }
-        .mail {
-          height: 50px;
-          width: 50px;
-          margin: 0;
-          margin-top: -0.3rem;
-          @media (min-width: 1025px) and (max-width: 1300px) {
-            height: 40px;
-            width: 40px;
-          }
-          @media (min-width: 760px) and (max-width: 1024px) {
-            height: 30px;
-            width: 30px;
-          }
-          @media (min-width: 480px) and (max-width: 759px) {
-            height: 38px;
-            width: 38px;
-          }
-          @media (max-width: 479px) {
-            height: 40px;
-            width: 40px;
-          }
-        }
-      }
-    }
   }
   .footer {
     background: #1f2128;
@@ -518,30 +366,30 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    p {
-      font-size: 1.4rem;
-      margin: 0;
-      font-family: 'Cyborg';
-      font-weight: 900;
-      color: #10ba45;
-      text-transform: capitalize;
-      padding: 2rem 0;
-      @media (min-width: 1025px) and (max-width: 1300px) {
-        font-size: 1.2rem;
-      }
-      @media (min-width: 760px) and (max-width: 1024px) {
-        font-size: 1.1rem;
-      }
-      @media (min-width: 480px) and (max-width: 759px) {
-        font-size: 0.9rem;
-        text-align: center;
-        padding: 0.9rem 0.3rem;
-      }
-      @media (max-width: 479px) {
-        font-size: 0.9rem;
-        text-align: center;
-        padding: 0.7rem 0.2rem;
-      }
+  }
+  .footer p {
+    font-size: 1.4rem;
+    margin: 0;
+    font-family: 'Oswald';
+    font-weight: 700;
+    color: #10ba45;
+    text-transform: capitalize;
+    padding: 2rem 0;
+    @media (min-width: 1025px) and (max-width: 1300px) {
+      font-size: 1.2rem;
+    }
+    @media (min-width: 760px) and (max-width: 1024px) {
+      font-size: 1.1rem;
+    }
+    @media (min-width: 480px) and (max-width: 759px) {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0.9rem 0.3rem;
+    }
+    @media (max-width: 479px) {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0.7rem 0.2rem;
     }
   }
 }
