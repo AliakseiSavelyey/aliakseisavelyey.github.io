@@ -1,0 +1,19 @@
+.pokedex {
+  padding: 50px;
+}
+.pokedex__box {
+  display: flex;
+  align-items: center;
+}
+.pokedex__link img {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+}
+.pokedex__link img:hover,
+.pokedex__link img:focus {
+  scale: 0.99;
+}
