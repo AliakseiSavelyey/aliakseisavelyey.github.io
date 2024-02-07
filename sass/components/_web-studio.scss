@@ -1,0 +1,37 @@
+.web-studio {
+  padding: 30px 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.web-studio__box {
+  display: flex;
+  align-items: center;
+}
+.web-studio__description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+}
+.web-studio__title{
+padding-left: 75px;
+}
+
+.web-studio_about{
+  font-size: 20px;
+}
+.web-studio__link {
+  margin: 20px;
+}
+.web-studio__link :hover,
+.web-studio__link :focus {
+  scale: 0.99;
+}
+.web-studio__link img {
+  width: 500px;
+  height: auto;
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+}

@@ -642,6 +642,7 @@ footer .footer p {
 
 .projects__title {
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .pokedex {
@@ -806,6 +807,62 @@ footer .footer p {
 }
 
 .set__link img {
+  width: 500px;
+  height: auto;
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+}
+
+.web-studio {
+  padding: 30px 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.web-studio__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.web-studio__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+}
+
+.web-studio__title {
+  padding-left: 75px;
+}
+
+.web-studio_about {
+  font-size: 20px;
+}
+
+.web-studio__link {
+  margin: 20px;
+}
+
+.web-studio__link :hover,
+.web-studio__link :focus {
+  scale: 0.99;
+}
+
+.web-studio__link img {
   width: 500px;
   height: auto;
   -webkit-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
