@@ -1,0 +1,37 @@
+.photo-search {
+  padding: 30px 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.photo-search__box {
+  display: flex;
+  align-items: center;
+}
+.photo-search__description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+}
+.photo-search__title{
+padding-left: 75px;
+}
+
+.photo-search_about{
+  font-size: 20px;
+}
+.photo-search__link {
+  margin: 20px;
+}
+.photo-search__link :hover,
+.photo-search__link :focus {
+  scale: 0.99;
+}
+.photo-search__link img {
+  width: 500px;
+  height: auto;
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+}
