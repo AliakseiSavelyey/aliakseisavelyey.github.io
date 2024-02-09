@@ -680,6 +680,37 @@ footer .footer p {
 .pokedex__title {
   padding-left: 35px;
 }
+@media (min-width: 760px) and (max-width: 1024px) {
+  .pokedex__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .pokedex__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .pokedex__title {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .pokedex_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .pokedex_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .pokedex_subtitle {
+    font-size: 20px;
+  }
+}
 
 .pokedex_about {
   font-size: 20px;
@@ -735,6 +766,37 @@ footer .footer p {
 
 .notebook__title {
   padding-left: 35px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .notebook__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .notebook__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .notebook__title {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .notebook_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .notebook_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .notebook_subtitle {
+    font-size: 20px;
+  }
 }
 
 .notebook_about {
@@ -792,6 +854,37 @@ footer .footer p {
 .set__title {
   padding-left: 75px;
 }
+@media (min-width: 760px) and (max-width: 1024px) {
+  .set__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .set__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .set__title {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .set_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .set_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .set_subtitle {
+    font-size: 20px;
+  }
+}
 
 .set_about {
   font-size: 20px;
@@ -847,6 +940,37 @@ footer .footer p {
 
 .web-studio__title {
   padding-left: 75px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .web-studio__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .web-studio__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .web-studio__title {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .web-studio_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .web-studio_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .web-studio_subtitle {
+    font-size: 20px;
+  }
 }
 
 .web-studio_about {
@@ -904,6 +1028,37 @@ footer .footer p {
 .photo-search__title {
   padding-left: 75px;
 }
+@media (min-width: 760px) and (max-width: 1024px) {
+  .photo-search__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .photo-search__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .photo-search__title {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .photo-search_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .photo-search_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .photo-search_subtitle {
+    font-size: 20px;
+  }
+}
 
 .photo-search_about {
   font-size: 20px;
@@ -959,6 +1114,37 @@ footer .footer p {
 
 .kinodex__title {
   padding-left: 75px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .kinodex__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .kinodex__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .kinodex__title {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1024px) {
+  .kinodex_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .kinodex_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .kinodex_subtitle {
+    font-size: 20px;
+  }
 }
 
 .kinodex_about {

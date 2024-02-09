@@ -14,11 +14,33 @@
   gap: 10px;
   margin: 30px;
 }
-.web-studio__title{
-padding-left: 75px;
+.web-studio__title {
+  padding-left: 75px;
+  // @media (min-width: 1025px) and (max-width: 1300px) {
+  //   padding-left: 75px;
+  // }
+  @media (min-width: 760px) and (max-width: 1024px) {
+    padding-left: 0px;
+  }
+  @media (min-width: 480px) and (max-width: 759px) {
+    padding-left: 0px;
+  }
+  @media (max-width: 479px) {
+    padding-left: 0px;
+  }
 }
-
-.web-studio_about{
+.web-studio_subtitle {
+  @media (min-width: 760px) and (max-width: 1024px) {
+    font-size: 24px;
+  }
+  @media (min-width: 480px) and (max-width: 759px) {
+    font-size: 20px;
+  }
+  @media (max-width: 479px) {
+    font-size: 20px;
+  }
+}
+.web-studio_about {
   font-size: 20px;
 }
 .web-studio__link {
