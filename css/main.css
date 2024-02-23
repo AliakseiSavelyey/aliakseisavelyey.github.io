@@ -668,6 +668,122 @@ footer .footer p {
   margin-bottom: 50px;
 }
 
+.mini-projects {
+  margin: 30px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.mini-projects__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 759px) {
+  .mini-projects__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.mini-projects__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin: 30px;
+}
+@media (max-width: 759px) {
+  .mini-projects__description {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.mini-projects__title {
+  padding-left: 35px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .mini-projects__title {
+    padding-left: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .mini-projects__title {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .mini-projects__title {
+    padding-left: 0px;
+  }
+}
+
+.mini-projects_subtitle {
+  font-size: 26px;
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .mini-projects_subtitle {
+    font-size: 24px;
+  }
+}
+@media (min-width: 480px) and (max-width: 759px) {
+  .mini-projects_subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .mini-projects_subtitle {
+    font-size: 20px;
+  }
+}
+
+.mini-projects_about {
+  font-size: 16px;
+}
+
+.mini-projects__link {
+  margin: 20px;
+}
+
+.mini-projects__link :hover,
+.mini-projects__link :focus {
+  scale: 0.99;
+}
+
+.mini-projects__link img {
+  width: 600px;
+  height: auto;
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 5px rgba(34, 60, 80, 0.2);
+}
+@media (min-width: 760px) and (max-width: 1024px) {
+  .mini-projects__link img {
+    width: 400px;
+  }
+}
+@media (max-width: 759px) {
+  .mini-projects__link img {
+    width: 300px;
+    font-size: 20px;
+  }
+}
+
 .pokedex {
   margin: 30px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
